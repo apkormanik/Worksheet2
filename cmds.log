@@ -1,0 +1,16 @@
+    1  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    2  ls
+    3  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+    4  grep 'verified' amazon_reviews_us_Books_v1_02.tsv.gz > verified.txt
+    5  ls
+    6  grep 'verified' amazon_reviews_us_Books_v1_02.tsv.gz > verified.txt
+    7  grep 'verified' amazon_reviews_us_Books_v1_02.tsv > verified.txt
+    8  cmdline amazon_reviews_us_Books_v1_02.tsv
+    9  vi amazon_reviews_us_Books_v1_02.tsv
+   10  ls
+   11  grep 'verified' amazon_reviews_us_Books_v1_02.tsv > verified.txt
+   12  grep -v 'verified' amazon_reviews_us_Books_v1_02.tsv > unverified.txt
+   13  wc verified.txt > counts.txt
+   14  wc unverified.txt >> counts.txt
+   15  vi counts.txt
+   16  history > cmds.log

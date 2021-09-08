@@ -1,0 +1,2 @@
+   1439 -> Number of lines, 588540 -> Number of words, 3575738 -> Number of bytes, In: verified.txt
+   3104082 -> Number of lines, 549581161 -> Number of words, 3235126792 -> Number of bytes, In:  unverified.txt
